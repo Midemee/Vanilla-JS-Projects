@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="breakfast">
+    <img src="IMG food.jpg" alt="food">
+    <p>Omellete</p>
+    <button onclick="purchase()">Purchase - $149</button>
+    <p id="error"></p>
+    </div>
+
+    <div class="calculator">
+        <span id="one"></span>
+        <span id="two"></span>
+        <br>
+        <button onclick="add()">Add</button>
+        <button onclick="subtract()">Subtract</button>
+        <button onclick="divide()">Divide</button>
+        <button onclick="multiply()">Multiply</button>
+        <br>
+        <span id="sum"> </span>
+    </div>
+
+    <div class="game">
+        <h1>BlackJack</h1>
+        <p id="message"> Want to play a round?</p>
+        <p id="card">Cards:</p>
+        <p id="total">Sum:</p>
+        <button class="start" onclick="startGame()">Start Game</button>
+        <button class="new" onclick="newCard()">New Card</button>
+        <p id="player"></p>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
